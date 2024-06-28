@@ -138,10 +138,10 @@
 }
 #col-R {
 	padding: 0px;
-	margin: 0px auto;
+	margin: 0px;
 	width: 700px;
 	position: relative;
-	float: none;
+	float: right;
 	overflow: hidden;
 }
 #col-ft-l1 {
@@ -165,9 +165,9 @@
 #col-ft-r1 {
 	background-position: center top;
 	padding: 0px;
-	margin: 30px 0px 0px 0px ;
+	margin: 30px 0px 0px 0px;
 	width: 500px;
-	position: relative ;
+	position: relative;
 	float: right;
 	overflow: hidden;
 	list-style-type: none;
@@ -179,13 +179,6 @@
 	background-repeat: no-repeat;
 	background-color: #171C20;
 }
-.centered-container {
-	display: flex;
-	justify-content: center;
-	align-items: center; /* Centra verticalmente */
-	height: 100%; /* Usa todo el alto de la ventana gráfica */
-}
-
 .col-ft-r1-p {
 	margin: 0px;
 	padding: 4px;
@@ -224,16 +217,14 @@
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	height: 100px;
+	height: 222px;
 	position: relative;
 	overflow: hidden;
 	list-style-type: none;
 }
 #foot-info {
-	display: flex;
-	justify-content: center;
-	height: 100%; /* Usa todo el alto de la ventana gráfica */
-	width: 100%;
+	height: 215px;
+	width: 980px;
 	position: relative;
 	overflow: hidden;
 	padding: 0px;
@@ -309,7 +300,7 @@
 #nav-H {
 	margin: 0px;
 	padding: 0px;
-	width: 100%;
+	width: 980px;
 	height: 35px;
 	position: relative;
 	z-index: 2;
