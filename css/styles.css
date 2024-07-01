@@ -1088,15 +1088,3 @@ a.LINKpg-lvl2:hover {
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
 }
-
-.image-container2 {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-}
-
-.image-container2 img {
-	width: 200px;
-	box-shadow: 8px 3px 8px rgba(0, 0, 0, 0.3);/* Añade sombra */
-	object-fit: cover; /* Cubre todo el contenedor manteniendo las proporciones */
-}
