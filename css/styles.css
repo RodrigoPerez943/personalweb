@@ -3,11 +3,12 @@
 	padding: 0px;
 	margin: 0px;
 	overflow: auto;
-	background-image: url('../theme/bgnd-top.jpg');
+	background-image: url('../theme/bgnd-top.png');
 	background-repeat: repeat-x;
 	background-color: #43515E;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: .8em;
+	min-width: 1268px;
 }
 /* ======================================= CONTAINERS ======================================= */
 #wrapper {
@@ -165,7 +166,7 @@
 #col-ft-r1 {
 	background-position: center top;
 	padding: 0px;
-	margin: 30px 0px 0px 0px ;
+	margin: 25px 0px 0px 0px ;
 	width: 500px;
 	position: relative ;
 	float: right;
@@ -223,7 +224,7 @@
 	background-position: center top;
 	margin: 0px;
 	padding: 0px;
-	width: 100%;
+	width: 100;
 	height: 100px;
 	position: relative;
 	overflow: hidden;
