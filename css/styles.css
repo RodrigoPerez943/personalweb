@@ -1124,3 +1124,28 @@ a.LINKpg-lvl2:hover {
 	border-radius: 5px;
 	cursor: pointer;
 }
+
+#floating-button {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	background-color: #313b45; /* Cambia el color según tu preferencia */
+	color: white;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+	font-size: 24px;
+  }
+  
+  #floating-button:hover {
+	background-color: #57697a; /* Cambia el color según tu preferencia */
+  }
+
+  html {
+	scroll-behavior: smooth;
+}
